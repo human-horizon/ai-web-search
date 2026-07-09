@@ -1,0 +1,33 @@
+{
+    "name": "opencode-ai-search",
+    "version": "0.1.0",
+    "description": "OpenCode plugin for web search via Google AI Mode with visible browser",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "ai-google-search": "dist/cli.js"
+    },
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "clean": "rm -rf dist",
+        "dev": "tsc -p tsconfig.json --watch"
+    },
+    "keywords": ["opencode", "plugin", "search", "google", "ai"],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "turndown": "latest"
+    },
+    "peerDependencies": {
+        "@opencode-ai/plugin": "latest",
+        "playwright": "latest"
+    },
+    "devDependencies": {
+        "@opencode-ai/plugin": "latest",
+        "@types/node": "latest",
+        "@types/turndown": "latest",
+        "playwright": "latest",
+        "typescript": "latest"
+    }
+}

@@ -1,0 +1,15 @@
+# Binaries
+bin/ai-search
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
